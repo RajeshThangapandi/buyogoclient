@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'https://buyogobackend.onrender.com';
 
 
   constructor(private http: HttpClient) { }
